@@ -1,5 +1,5 @@
 import React from 'react'
-import RoomDetail from '../components/detail/roomdetail'
+import RoomDetail from '../components/detail/RoomDetail'
 import Details from '../components/detail/Details'
 import Other from '../components/index/Other'
 import Footer from '../components/index/Footer'
