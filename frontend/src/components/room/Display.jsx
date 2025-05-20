@@ -33,7 +33,7 @@ const Display = () => {
             <p className="title mt-4"><Link  to={{ pathname: `/room/${room._id}` }}>
   {room.name}
 </Link></p>
-            <p className="snippet">Price at <span className="price">&#8358;{room.price}</span>/night</p>
+            <p className="snippet">Price at <span className="price">&#8358;{Number(room.price).toLocaleString()}</span>/night</p>
           </div>
           ))}
         </div>

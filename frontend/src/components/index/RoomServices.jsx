@@ -129,13 +129,13 @@ const RoomServices = () => {
                   </p>
                   <p className="text">Our charming one-bedroom apartment...</p>
                   <a
-                    href="/rooms?room=studio-imperial"
+                    href="/room"
                     className="button button-default px-3 py-2"
                   >
                     DETAILS
                   </a>
                   <a
-                    href="/rooms?room=studio-imperial"
+                    href="/room"
                     className="button button-primary px-3 py-2"
                   >
                     BOOK NOW
