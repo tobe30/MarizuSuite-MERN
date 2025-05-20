@@ -1,0 +1,105 @@
+.rooms .title {
+    font-family: serif;
+    color: #000;
+    font-size: 30px;
+  }
+  
+  .rooms .snippet {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 100;
+    margin-top: -4%;
+  }
+  
+  .rooms .price {
+    color: #000;
+    font-size: 20px;
+    font-family: serif;
+  }
+  
+  .rooms .text {
+    color: grey;
+    font-size: 15px !important;
+    line-height: 24px !important;
+  }
+  
+  .rooms img {
+    height: 250px;
+  }
+  
+  .booking-section {
+    border: 1px solid rgb(203, 200, 200) !important;
+    padding: 10%;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid rgb(203, 200, 200) !important;
+  }
+  
+  input {
+    font-size: 15px !important;
+  }
+  
+  .select {
+    border: none !important;
+    padding: 2% 20% 2% 0% !important;
+    font-size: 15px !important;
+  }
+  
+  .select option {
+    font-size: 15px !important;
+  }
+  
+  .select:focus {
+    border: none !important;
+    outline: none !important;
+    padding: 2% !important;
+  }
+  
+  .button:hover {
+    text-decoration: none !important;
+  }
+  
+  .booking-section .title {
+    font-size: 25px;
+    font-family: serif;
+  }
+  
+  .booking-section .info-snippet {
+    font-size: 12px;
+  }
+  
+  .room-details .title {
+    font-family: serif !important;
+    color: #000 !important;
+    font-size: 30px !important;
+  }
+  
+  .room-details .text {
+    color: grey !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+  }
+  
+  .room-details .snippet {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 100;
+  }
+  
+  .room-details .price {
+    color: #000;
+    font-size: 20px;
+    font-family: serif;
+  }
+  
+  .title a{
+      /* text-decoration: none !important; */
+      color: inherit !important;
+  }
+  
+  /* .title a:hover{
+      text-decoration: none !important;
+      color: inherit !important;
+  } */
+

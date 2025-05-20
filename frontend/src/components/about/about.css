@@ -1,0 +1,75 @@
+.navbar {
+    display: block !important;
+    top: 0 !important;
+  }
+  
+.hero-section {
+  margin: 0; 
+  padding: 20rem 10rem;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+  
+  .hero-section p.title {
+    font-family: serif;
+    font-size: 25px;
+  }
+  
+  .hero-section p.snippet {
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+  
+  .hero-section span {
+    color: rgb(39, 39, 39);
+  }
+  
+  .about-section .title {
+    font-size: 25px !important;
+    line-height: 30px !important;
+  }
+  
+  .about-section p {
+    font-size: 14px !important;
+  }
+  
+  .about-section > swiper-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about-section > swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  }
+  
+  .about-section > swiper-container swiper-slide {
+    height: 300px;
+    line-height: 300px;
+  }
+  
+  .about-section > swiper-container swiper-slide:nth-child(2n) {
+    height: 500px;
+    line-height: 500px;
+  }
+  
+  .our-vision p.title {
+    font-family: serif;
+    font-size: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-page-swiper {
+      height: 260px !important;
+    }
+    .our-vision{
+      margin-top: 200px !important;
+    }
+  }
+  
+  .about-page-swiper {
+    height: 400px;
+  }

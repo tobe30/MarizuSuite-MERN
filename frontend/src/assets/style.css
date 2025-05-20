@@ -1,0 +1,842 @@
+html,
+
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+
+.bg-light {
+  background: #fff !important;
+}
+
+.arr-pad {
+  padding: 5px 10px;
+  height: 155px;
+  min-width: 120px;
+}
+
+.mar-top {
+  margin-top: 50px;
+}
+
+.bg-dark {
+  background: #000 !important;
+}
+
+.lisa-style {
+  padding: 100px 0;
+}
+
+.mar-lef {
+  margin-left: 10px !important;
+  margin-top: 30px !important;
+}
+
+.p-style {
+  font-size: 15px;
+  color: #858585 !important;
+}
+
+.btn.btn-secondary {
+  background: #000 !important;
+  padding: 10px 15px !important;
+  border: 1px solid #fff !important;
+  border-radius: 0px !important;
+  font-size: 13px !important;
+}
+
+.card-body,
+.card {
+  border-radius: 0px !important;
+}
+
+
+
+.serif {
+  font-family: serif;
+}
+
+.txt-sm {
+  font-size: 12px !important;
+}
+
+.txt-md {
+  font-size: 16.5px !important;
+}
+
+.txt-large {
+  font-size: 50px !important;
+  line-height: 40px !important;
+}
+
+.txt-xlarge {
+  font-size: 84px !important;
+}
+
+.button {
+  border: none;
+  border-radius: none;
+  padding: 1% 2% 1% 2%;
+  font-size: 13px;
+  width: auto !important;
+  text-decoration: none !important;
+}
+
+.button:hover {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.button-primary {
+  background-color: #000;
+  color: white;
+}
+
+.button-default {
+  background-color: gray;
+  color: white;
+}
+
+/* .button-primary:hover {
+  background-color: white;
+  color: #a9a18c;
+} */
+
+.hero-slide {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/assets/images/IMG_2242.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+}
+/* .carousel-item {
+  height: 100vh;
+} */
+
+.carousel-item {
+  transition: opacity 1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .title.serif.txt-large {
+    font-size: 30px !important;
+  }
+  .subtitle.txt-sm {
+    font-size: 14px;
+  }
+}
+
+/* others */
+
+.home-logo {
+  float: left !important;
+}
+
+.date-picker {
+  position: relative;
+  display: inline-block;
+  border: none !important;
+  outline: none !important;
+  /* max-width: 280px !important; */
+}
+
+.number input {
+  max-width: 100px !important;
+}
+
+.date-picker :focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.date-picker input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.date-picker::after {
+  content: "\f073";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none;
+}
+
+input {
+  border: none !important;
+  outline: none !important;
+  font-family: serif !important;
+  font-size: 20px !important;
+}
+
+.date-picker input::-webkit-calendar-picker-indicator {
+  filter: invert(40%);
+}
+
+.border-right {
+  border-right: 1px solid rgb(203, 200, 200) !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(203, 200, 200) !important;
+}
+
+.date-picker span,
+.number span {
+  font-size: 13px;
+}
+
+.about-section .subtitle,
+.explore-section .subtitle,
+.news .subtitle {
+  color: #aaa;
+  font-size: 15px;
+}
+
+.about-section {
+  background: whitesmoke;
+  width: 100% !important;
+  height: 750px;
+}
+
+.lis-marlef {
+  margin-left: -2rem !important;
+}
+
+.all-facilities {
+  margin: 0 auto !important ;
+}
+
+/* .card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: none !important;
+  overflow-x: hidden;
+}
+
+.card img {
+  width: auto;
+  min-height: 380px;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.news .card img {
+  width: auto;
+  min-height: 250px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+}
+
+.card-body {
+  background: #f4f3f2;
+} */
+
+.why-style {
+  background-image: url("assets/images/MSH03449.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100%; */
+  position: relative;
+  z-index: 1;
+}
+
+.why-style::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: -1;
+}
+
+.card {
+  border: none !important;
+}
+
+.choose-style {
+  margin-top: 80px !important;
+}
+
+.p-tag {
+  padding-top: 50px;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+.h-tag {
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 53px !important;
+  line-height: 64px !important;
+}
+
+.title-style {
+  color: #fff !important;
+}
+
+.t-style {
+  color: #aaa !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+
+.imgcontain {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.imgcontain::after {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 90%;
+  height: 20px;
+  border: 2px solid #fff;
+  /* border-radius: 2%; */
+  z-index: 1;
+  content: "";
+}
+
+.slide-inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: auto;
+}
+.explore-section .title {
+  font-size: 33px !important;
+  font-weight: 200;
+}
+
+.explore-section .title:hover {
+  text-decoration: underline;
+}
+
+.text.snippet {
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.explore-section .cta {
+  color: #a9a18c;
+}
+
+.mar-p {
+  margin-bottom: 100px;
+}
+
+.ex-more {
+  font-size: 18px;
+  color: #aaa !important;
+}
+
+.fixed-height-card {
+  height: 100%;
+  background: #f4f3f2 !important;
+  border: none !important;
+}
+
+img.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 300px; /* Adjust this value to your preference */
+}
+
+.me {
+  height: 300px; /* Ensures all slides have same height */
+}
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.explore-section swiper-slide {
+  min-height: 500px !important;
+  max-height: 500px !important;
+}
+@media (max-width: 1200px) {
+    /* Adjust styles for Surface 7 and similar screens */
+    .explore-section {
+        padding-top: 20px;
+        margin-top: 450px !important;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-12, .col-sm-6, .col-md-4 {
+        flex: 1 1 45%; /* Adjust for better fit on Surface 7 */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens like tablets and mobile */
+    .col-12, .col-sm-6 {
+        flex: 1 1 100%; /* Stack elements vertically */
+    }
+     .explore-section {
+        margin-top: 50px !important;
+    }
+
+}
+
+/* Set a height for the parallax section */
+.parallax-section {
+  height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add content inside the parallax section */
+.parallax-content {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 100%; /* Span across the width of the page */
+  padding: 0 20px; /* Optional padding for the content */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+/* Add opacity to the background */
+.parallax-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Adjust the last value (0.5) for desired opacity */
+}
+
+.parallax-content .subtitle {
+  color: #aaa !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.title.sub {
+  font-size: 30px !important;
+}
+
+.parallax-section .text {
+  color: rgb(151, 150, 150) !important;
+}
+
+.rooms-and-suites .subtitle {
+  color: #aaa;
+}
+
+/* Tabs container */
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tabs-container .tab {
+  font-size: 13px !important;
+  color: #aaa !important;
+  font-weight: bold !important;
+}
+
+/* Individual tab */
+.tab {
+  cursor: pointer;
+  font-size: 18px;
+  padding-bottom: 5px;
+  color: #000;
+  position: relative;
+}
+
+/* Underline for active tab */
+.tab.active::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  height: 2px !important;
+  width: 100% !important;
+  background-color: #a9a18c !important;
+}
+
+/* Tabs content */
+.tab-content {
+  display: none;
+  margin-top: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.rooms-and-suites swiper-slide {
+  background: white;
+}
+
+.tab-content .title {
+  font-family: serif;
+  color: #000;
+  font-size: 30px;
+}
+
+.tab-content .snippet {
+  color: black;
+  font-size: 15px !important;
+  font-weight: 100;
+}
+
+.tab-content .price {
+  color: #000;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.tab-content .text {
+  color: #000;
+  font-size: 15px !important;
+  line-height: 24px !important;
+}
+
+.reviews {
+  background: #000 !important;
+  text-align: center;
+}
+
+.reviews swiper-container {
+  background: inherit !important;
+}
+
+.reviews swiper-slide {
+  padding: 10% !important;
+}
+
+.blockquote-container {
+  background-color: inherit;
+  /* border-left: 5px solid #a9a18c; */
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif !important;
+}
+
+.blockquote-content {
+  font-size: 30px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif !important;
+  margin-bottom: 10px;
+  color: #fff !important;
+}
+
+.blockquote-footer {
+  font-size: 14px;
+  font-style: italic;
+  color: #aaa;
+}
+
+.blockquote-content {
+  font-style: italic !important;
+}
+
+.others-and-contact {
+  background: whitesmoke !important;
+}
+
+.footer {
+  background: rgb(39, 39, 39);
+  padding: 5% 3% 2% 3%;
+  font-size: 14px !important;
+}
+
+.footer h5 {
+  color: white;
+  font-size: 15px;
+  font-family: serif;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.footer p {
+  color: #aaa;
+}
+
+.footer .copyright {
+  color: gray;
+  font-size: 12px;
+}
+
+.others-and-contact .title {
+  font-family: serif !important;
+  font-size: 25px !important;
+  color: #aaa !important;
+}
+
+.others-and-contact .sub-title {
+  font-size: 12px;
+  color: #777;
+  margin-top: -3%;
+}
+
+.others-and-contact .info {
+  font-size: 30px;
+  color: #000;
+  font-family: serif;
+  margin-top: -4%;
+}
+
+.others-and-contact input {
+  outline: none !important;
+  font-size: 12px !important;
+}
+
+.others-and-contact input:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.others-and-contact .socials {
+  color: #a9a18c;
+}
+
+.others-and-contact a,
+.footer a:hover {
+  color: inherit !important;
+}
+
+/* .navbar {
+  display: none !important;
+  position: sticky !important;
+  top: 0 !important;
+  width: 100% !important;
+  background-color: rgb(39, 39, 39) !important;
+  z-index: 999 !important;
+  transition: top 0.8s ease-in-out !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important; 
+}
+
+.navbar.visible {
+  display: block !important;
+  top: 0 !important;
+}
+
+.navbar a {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 200;
+} */
+
+.navbar-brand{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Preloader styles */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.preloader .loader {
+  font-size: 36px;
+  color: #fff;
+  animation: spin 1.2s linear infinite;
+}
+
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.width {
+  width: 100% !important;
+}
+
+.navigation {
+  padding: 0 .5rem;
+  position: fixed;
+  width: 100%;
+  /* height: 70px; */
+  left: 0%;
+  right: 0%;
+  z-index: 100;
+}
+
+.start_style {
+  padding: 6px 6px;
+}
+
+.text-danger {
+  color: #3c5b45 !important;
+  font-family: "Mulish";
+}
+
+.login {
+  border: none;
+}
+
+.btn-danger {
+  background: #3c5b45 !important;
+  border: none;
+}
+
+.text-dark {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+.button {
+  border: none;
+}
+
+.scroll {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.gallery img {
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    padding: 2px 2px;
+  }
+
+  .gallery img {
+    height: 170px !important;
+  }
+
+  .reviews .blockquote-content p {
+    font-size: 20px !important;
+  }
+
+  .home-rooms {
+    height: 500px !important;
+  }
+
+  .home-rooms2 {
+    height: 70px !important;
+  }
+
+  .home-rooms img,
+  .home-rooms2 img {
+    object-fit: cover !important;
+  }
+
+  .parallax-section {
+    height: 70% !important;
+  }
+
+  .imgcontain::after {
+    display: none;
+  }
+
+  .brand_logo {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+
+  .log-style {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .arr-pad {
+    padding: 5px 10px;
+    height: 155px;
+    min-width: 255px;
+  }
+
+  .about-section {
+    background: whitesmoke;
+    width: 100% !important;
+    height: 1060px;
+  }
+
+  .h-tag {
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+    line-height: 64px !important;
+  }
+
+  .fixed-height-card {
+    height: 700px;
+    background: #f4f3f2 !important;
+    border: none !important;
+  }
+}
+
+/* Restaurant styling */
+.custom-card{
+  height: 100px;
+}
